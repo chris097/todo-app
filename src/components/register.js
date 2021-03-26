@@ -5,7 +5,7 @@ export const Reg = () => {
     return(
         <>
             <div>
-              
+                hello world ...
             </div>
         </>
     )
