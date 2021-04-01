@@ -1,10 +1,10 @@
-import { Reg } from "./components/register";
+import { Interview } from "./pages/index";
 
 
 function App() {
   return (
      <>
-        <Reg />
+        <Interview />
      </>
   );
 }
