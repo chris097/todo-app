@@ -1,10 +1,12 @@
-import { Interview } from "./pages/index";
+import { Header } from "./components/header"
+import { Layout } from "./components/layout"
 
 
 function App() {
   return (
      <>
-        <Interview />
+       <Header />
+       <Layout />
      </>
   );
 }
