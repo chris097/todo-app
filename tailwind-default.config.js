@@ -63,6 +63,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      100: "32rem"
     },
     animation: {
       none: 'none',
@@ -352,6 +353,7 @@ module.exports = {
       '4/6': '66.666667%',
       '5/6': '83.333333%',
       full: '100%',
+      xfull: '95%',
       screen: '100vh',
     }),
     inset: (theme, { negative }) => ({

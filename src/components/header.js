@@ -5,12 +5,12 @@ import img from "../image/shopping-cart.svg"
 export const Header = () => {
     return(
         <div>
-            <div class="bg-blue-700 w-screen h-11 text-white py-2.5 px-20 bg-opacity-90">
+            <div class="bg-blue-700 w-screen h-11 text-white py-2.5 px-2 md:px-20 bg-opacity-90">
             <div class="text-sm text-gray-50">Store made with Soko</div>
         </div>
-            <div class="px-20 flex justify-between">
+            <div class="px-2 md:px-20 flex justify-between">
                 <div class="flex mt-6">
-                    <div class="w-16 h-16 p-4 bg-gray-100 rounded-full"><img src={img} alt=""/></div>
+                    <div class="bg-gray-100 rounded-full w-18 h-10 md:w-16 md:h-16 md:p-1 object-center"><img src={img} alt=""/></div>
                     <span class="ml-4 mt-1">
                         <div class=" text-xl font-bold text-gray-700">Target</div>
                         <div class="text-gray-500">Cham Towers, Plot 12 Nkruma Rd Kampala, Ug</div>
