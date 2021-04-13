@@ -1,6 +1,11 @@
 import React from "react";
 import img from "../image/shopping-cart.svg";
+import earPhone from "../image/ear-phone.jpg";
 import truck from "../image/truck.png";
+import game from "../image/game-1.jpg";
+import empty from "../image/avatar.png";
+import chat from "../image/chat.png";
+import iphone from "../image/iphone.jpg";
 
 
 export const Layout = () => {
@@ -26,7 +31,7 @@ export const Layout = () => {
                     <div class="font-semibold text-gray-700 text-lg mt-6">Electronics <span class="bg-blue-700 px-2 text-gray-300 rounded-sm ml-5 text-lg">12</span></div>
                     <div class="flex justify-between mt-5">
                         <div class="flex">
-                            <img class="w-16 h-20 rounded-sm bg-gray-200" src={img} alt=""/>
+                            <img class="w-16 h-20 rounded-sm bg-gray-200 object-cover bg-no-repeat bg-center" src={game} alt=""/>
                             <div class="mt-5 ml-4">
                                 <p class="text-gray-600">Kids 2px cloth face masks</p>
                                 <p class="text-gray-400">UGX 184,000</p>
@@ -36,7 +41,7 @@ export const Layout = () => {
                     </div>
                     <div class="flex justify-between mt-5">
                         <div class="flex">
-                            <img class="w-16 h-20 rounded-sm bg-gray-200" src={img} alt=""/>
+                            <img class="w-16 h-20 rounded-sm bg-gray-200" src={earPhone} alt=""/>
                             <div class="mt-5 ml-4">
                                 <p class="text-gray-600">Kids 2px cloth face masks</p>
                                 <p class="text-gray-400">UGX 184,000</p>
@@ -46,7 +51,7 @@ export const Layout = () => {
                     </div>
                     <div class="flex justify-between mt-5">
                         <div class="flex">
-                            <img class="w-16 h-20 rounded-sm bg-gray-200" src={img} alt=""/>
+                            <img class="w-16 h-20 rounded-sm bg-gray-200" src={iphone} alt=""/>
                             <div class="mt-5 ml-4">
                                 <p class="text-gray-600">Kids 2px cloth face masks</p>
                                 <p class="text-gray-400">UGX 184,000</p>
@@ -56,7 +61,7 @@ export const Layout = () => {
                     </div>
                     <div class="flex justify-between mt-5">
                         <div class="flex">
-                            <img class="w-16 h-20 rounded-sm bg-gray-200" src={img} alt=""/>
+                            <img class="w-16 h-20 rounded-sm bg-gray-200" src={earPhone} alt=""/>
                             <div class="mt-5 ml-4">
                                 <p class="text-gray-600">Kids 2px cloth face masks</p>
                                 <p class="text-gray-400">UGX 184,000</p>
@@ -68,7 +73,7 @@ export const Layout = () => {
                 <div class="ml-10">
                     <div class="text-xl font-semibold">Bag <span class="bg-blue-700 px-2 text-gray-300 rounded-sm ml-2 text-lg">0</span></div>
                     <div class="w-56 text-center mt-7">
-                        <div class="w-20 m-auto"><img src={img} alt=""/></div>
+                        <div class="w-20 m-auto"><img src={empty} alt=""/></div>
                         <div>
                             <div class="font-semibold text-gray-700 mt-5">It's empty here</div>
                             <div class="text-gray-600">Start shopping to add items to your bag</div>
@@ -98,10 +103,10 @@ export const Layout = () => {
             </div>
 
             { /** Communication section */}
-            <div class="fixed bottom-4 left-6 flex">
+            <div class="fixed bottom-4 left-2 flex">
                 <div class="bg-gray-200 w-20 h-8 text-center rounded-sm text-sm pt-1.5"> Menu</div>
                 <div class="bg-gray-200 w-28 h-8 rounded-sm text-sm pt-1.5 mx-4 flex px-2"><img class="w-5 -mt-1 mr-1" src={img} alt=""/>Handoff</div>
-                <div class="bg-gray-200 w-28 h-8 rounded-sm text-sm pt-1.5 flex px-2"><img class="w-5 -mt-1 mr-1" src={img} alt=""/>Message</div>
+                <div class="bg-gray-200 w-auto h-8 rounded-sm text-sm pt-1.5 flex px-2"><img class="w-4 h-6 pt-2 -mt-1 mr-1" src={chat} alt=""/><span class="whitespace-nowrap">13 comments</span></div>
             </div>
         </div>
     )

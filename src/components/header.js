@@ -1,5 +1,6 @@
 import React from 'react';
-import img from "../image/shopping-cart.svg"
+import img from "../image/shopping-cart.svg";
+import user from "../image/user.png";
 
 
 export const Header = () => {
@@ -22,7 +23,7 @@ export const Header = () => {
                         <span class="mt-8 ml-2 text-gray-500 font-semibold">Bag</span>
                     </div>
                     <div class="flex">
-                        <img class="w-6" src={img} alt="key_icon"/>
+                        <img class="w-6 h-6 mt-8" src={user} alt="key_icon"/>
                         <span class="mt-8 ml-2 text-gray-500 font-semibold">Account</span>
                     </div>
                 </div>
